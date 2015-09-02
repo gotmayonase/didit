@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require 'didit'
+require 'optparse'
+
+options = {}
+OptionParser.new do |opts|
+  opts.banner = "Usage: didit [options] [message]"
+
+  opts.on('--reset') do |v|
+    options[:reset] = true
+  end
+end.parse!
+
+didit = Didit::Updater.new(ARGV[0], options)
+didit.update
