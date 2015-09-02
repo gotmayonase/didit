@@ -4,8 +4,15 @@ A quick gem-ified version of the CLI for iDoneThis available from the [iDoneThis
 
 After installing, just run `didit [options] [message]`.
 
+# Installation
 
-## License
+## Solo
+Run `rake install`
+
+## Bundler
+Add `gem didit, github: 'gotmayonase/didit'` to your Gemfile (though I don't know what you'd do that).
+
+# License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
