@@ -8,7 +8,7 @@ options = {}
 OptionParser.new do |opts|
   opts.banner = "Usage: didit [options] [message]"
 
-  opts.on('--reset') do |v|
+  opts.on('--reset', 'Clear your local configuration') do |v|
     options[:reset] = true
   end
 end.parse!
