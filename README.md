@@ -10,7 +10,7 @@ After installing, just run `didit [options] [message]`.
 Run `rake install`
 
 ## Bundler
-Add `gem didit, github: 'gotmayonase/didit'` to your Gemfile (though I don't know what you'd do that).
+Add `gem 'didit', github: 'gotmayonase/didit'` to your Gemfile (though I don't know what you'd do that).
 
 # License
 
